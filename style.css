@@ -1,0 +1,204 @@
+.header {
+    overflow: hidden;
+    background-color: #EDF7F5;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.carousel {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #EDF7F5;
+}
+
+.car-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.car-text {
+    margin-left: 5%;
+    color: #132322;
+}
+
+.car-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.graf {
+    background-color: #EDF7F5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.graf-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.graf-list b {
+    size: 60px;
+}
+
+.graf-list p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.doing {
+    background-color: #BFDED6;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.comp-doing {
+    text-align: center;
+}
+
+.list-doing {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.text-doing {
+    margin-top: 20px;
+    padding: 0px 40px;
+}
+
+.values-mission {
+    background-color: #ffffff;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.vm-picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.vm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.values, .mission {
+    background-color: #F9F9F7;
+    margin: 20px;
+    padding: 30px 50px 30px 30px;
+    border-radius: 20px;
+}
+
+.values p, .mission p {
+    margin-top: 30px;
+}
+
+.mission {
+    text-align: end;
+}
+
+.categories {
+    height: 600px;
+    background-color: #EDF7F5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.categories .list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.categories .list .item {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #F9F9F7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.categories .list .item img {
+    height: 200px;
+    width: auto;
+}
+
+.footer {
+    background-color: #132322;
+    color: #ffffff;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.footer .item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
