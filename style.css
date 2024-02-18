@@ -1,3 +1,6 @@
+body {
+    background-color: #EDF7F5;
+}
 .header {
     overflow: hidden;
     background-color: #EDF7F5;
@@ -183,6 +186,11 @@
     width: auto;
 }
 
+.categories .list a {
+    text-decoration: none;
+    color: black;
+}
+
 .footer {
     background-color: #132322;
     color: #ffffff;
@@ -201,4 +209,110 @@
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
+}
+
+.intro {
+    height: 600px;
+    background-color: #EDF7F5;
+}
+
+.cat-intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.alert {
+    background-color: #EDF7F5;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dos, .donts {
+    width: 50%;
+    padding: 20px;
+    background-color: #F9F9F7;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.list-dos, .list-donts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.list-dos .item, .list-donts .item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.list-dos .item img, .list-donts .item img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.management {
+    padding: 50px;
+    background-color: #EDF7F5;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.recycle {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.recycle .slide {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.recycle .slide .item {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #BFDED6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
